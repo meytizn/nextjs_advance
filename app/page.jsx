@@ -6,14 +6,13 @@ export default function App() {
   return (
     <Fragment>
       
-      < div className=" flex flex-row w-[100%]  m-auto text-[20px] text-center bg-blue-500 text-white h-[60px]">
+      < div className=" flex flex-col md:flex-row flex-wrap w-[100%]  m-auto text-[20px] text-center bg-blue-500 text-white gap-y-3">
 
-        <div className="w-[25%]"><Link href="/blog"><h1>SSG Rendering </h1></Link></div>
-        <div className="w-[25%]"><Link href="/profile"><h1>SSR Rendering </h1></Link></div>
-        <div className="w-[25%]"><Link href="/product"><h1>components </h1></Link></div>
-        <div className="w-[25%]"><h3></h3></div>
-        
-        
+        <div className="w-[100%] md:w-[25%] h-[60px] py-5"><Link href="/blog"><h1>SSG Rendering </h1></Link></div>
+        <div className="w-[100%] md:w-[25%] h-[60px] py-5"><Link href="/profile"><h1>SSR Rendering </h1></Link></div>
+        <div className="w-[100%] md:w-[25%] h-[60px] py-5"><Link href="/product"><h1>components </h1></Link></div>
+        <div className="w-[100%] md:w-[25%] h-[60px] py-5"><h3><Link href="/api/pages/products"><h1>Api route </h1></Link></h3></div>
+
         </div> 
         
         
