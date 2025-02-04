@@ -23,8 +23,9 @@ export default async function paginationpage({searchParams}) {
 
   let response = await fetch("https://jsonplaceholder.typicode.com/posts")
   let products =await response.json()
-  let products_page_counter =Math.ceil( products.length / ppg )
+  let products_page_counter =Math.ceil( products.length / ppg )  //reciving number of pages having products 
 
+  
   let firstIndex = (page-1) * ppg  //formula to get first index products
   let endIndex = firstIndex + ppg      //formula to get last index products
 
