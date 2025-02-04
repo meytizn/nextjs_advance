@@ -10,8 +10,9 @@ export default function App() {
 
         <div className="w-[100%] md:w-[25%] h-[60px] py-5"><Link href="/blog"><h1>SSG Rendering </h1></Link></div>
         <div className="w-[100%] md:w-[25%] h-[60px] py-5"><Link href="/profile"><h1>SSR Rendering </h1></Link></div>
-        <div className="w-[100%] md:w-[25%] h-[60px] py-5"><Link href="/product"><h1>components </h1></Link></div>
+        <div className="w-[100%] md:w-[25%] h-[60px] py-5"><Link href="/product"><h1>Components </h1></Link></div>
         <div className="w-[100%] md:w-[25%] h-[60px] py-5"><h3><Link href="/api/pages/products"><h1>Api route </h1></Link></h3></div>
+        <div className="w-[100%] md:w-[25%] h-[60px] py-5"><h3><Link href="/suspense/"><h1>React suspense </h1></Link></h3></div>
 
         </div> 
         
