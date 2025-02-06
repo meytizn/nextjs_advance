@@ -24,7 +24,7 @@ export default async function ProductApi() {
             
             <div className='flex flex-row justify-around  w-[100%] py-2 '>
               <div className=' w-[42%] bg-green-400 text-center h-[33px] rounded-md '><Link  href={`/storeproject/${product.id}`}>view more </Link></div>
-              <div className=' w-[42%] bg-blue-400 text-center h-[33px] rounded-md '>add to card </div>
+              <div className=' w-[42%] bg-blue-400 text-center h-[33px] rounded-md '><Link  href={`/storeproject/cart/`}>add to cart </Link> </div>
               </div> 
            
 
