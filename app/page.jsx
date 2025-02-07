@@ -41,6 +41,8 @@ export default function App() {
 
       < div className=" flex flex-row md:flex-row flex-wrap w-[100%] md:w-[70%]  m-auto text-[20px] text-center  text-black gap-y-3   ">
 
+      <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/props"><h1>Props </h1></Link></div>
+      <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/contextapi"><h1>contextapi </h1></Link></div>
         <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/blog"><h1>SSG Rendering </h1></Link></div>
         <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/profile"><h1>SSR Rendering </h1></Link></div>
         <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/product"><h1>Components </h1></Link></div>
