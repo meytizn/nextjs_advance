@@ -40,16 +40,17 @@ export default function App() {
 
 
       < div className=" flex flex-row md:flex-row flex-wrap w-[100%] md:w-[70%]  m-auto text-[20px] text-center  text-black gap-y-3   ">
-
-      <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/props"><h1>Props </h1></Link></div>
-      <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/contextapi"><h1>contextapi </h1></Link></div>
+      
+       <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/product"><h1>Components </h1></Link></div>
+       <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/props"><h1>Props </h1></Link></div>
+       <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/contextapi"><h1>Context Api </h1></Link></div>
         <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/blog"><h1>SSG Rendering </h1></Link></div>
         <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/profile"><h1>SSR Rendering </h1></Link></div>
-        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/product"><h1>Components </h1></Link></div>
-        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><h3><Link href="/api/pages/products"><h1>Api route </h1></Link></h3></div>
-        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><h3><Link href="/suspense/"><h1>React suspense </h1></Link></h3></div>
-        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><h3><Link href="/pagination/"><h1>Pagination </h1></Link></h3></div>
-        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><h3><Link href="/lazyloading/"><h1>Lazyloading </h1></Link></h3></div>
+
+        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/api/pages/products"><h1>Api route </h1></Link></div>
+        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/suspense/"><h1>React suspense </h1></Link></div>
+        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/pagination/"><h1>Pagination </h1></Link></div>
+        <div className="w-[50%] md:w-[25%] h-[70px] py-5 hover:text-white hover:bg-indigo-500"><Link href="/lazyloading/"><h1>Lazyloading </h1></Link></div>
 
         </div> 
         
