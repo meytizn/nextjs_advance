@@ -5,8 +5,11 @@ export default function Navbar() {
   return (
     <Fragment>
 
-    <div  className='w-[100%] bg-green-300 text-white text-center text-[30px]' >store</div>
-    <Link href="/storeproject/cart">cart</Link>
+    <div  className='flex flex-row justify-around w-[100%] bg-green-300 text-white text-center text-[30px]' >
+      <Link href='/storeproject'><div>Store</div></Link>
+      <Link href="/storeproject/cart"><div>cart</div></Link>
+    </div>
+    
 
     </Fragment>
   )
