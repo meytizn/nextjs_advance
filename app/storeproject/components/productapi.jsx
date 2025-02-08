@@ -17,7 +17,7 @@ export default async function ProductApi() {
 
   return (
     
-<div className=' flex flex-row flex-wrap w-[100%] md:w-[90%] m-auto bg-blue-300 justify-center gap-x-5 gap-y-5 justify-items-center '>
+<div className=' flex flex-row flex-wrap w-[100%] md:w-[90%] m-auto  justify-center gap-x-5 gap-y-5 justify-items-center '>
 
       <MyProduct products={products}/>
 
