@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React, { Fragment } from 'react'
 
 export default function Navbar() {
@@ -5,6 +6,7 @@ export default function Navbar() {
     <Fragment>
 
     <div  className='w-[100%] bg-green-300 text-white text-center text-[30px]' >store</div>
+    <Link href="/storeproject/cart">cart</Link>
 
     </Fragment>
   )

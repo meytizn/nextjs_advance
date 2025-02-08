@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import CartProvider from './storeproject/cart/cartcontextapi'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,7 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='bg-[#E2E8F0]'>{children}</body>
+      <body className='bg-[#E2E8F0]'>
+        <CartProvider>
+        {children}
+        </CartProvider>
+        </body>
     </html>
   )
 }

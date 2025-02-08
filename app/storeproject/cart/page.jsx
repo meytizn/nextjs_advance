@@ -1,35 +1,16 @@
-import React, { Fragment } from 'react'
+"use client"
+import React, { Fragment, useContext } from 'react'
+import { CartContext } from './cartcontextapi'
+
 
 
 
 
 export default function Cart() {
   
-let cart = [
-  {
-  "id": 1,
-  "title": "Fjallraven  Laptops",
-  "price": 109.95,
-  "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-  "category": "men's clothing",
-  "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-  "rating": {
-    "rate": 3.9,
-    "count": 120}
-  },
-  {
-    "id": 1,
-    "title": "Ps4 PRO",
-    "price": 899.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
-    "rating": {
-      "rate": 3.9,
-      "count": 120
-    },
-}
-]
+  const {cart,removeFromCart} = useContext(CartContext)
+
+
   return (
     <>
       <div className='flex flex-col w-[90%] md:w-[50%]  bg-white h-[500px] my-7 gap-y-5 py-5 m-auto'>
@@ -40,11 +21,11 @@ let cart = [
         :
         
         cart.map(
-          (c,index)=>(
-          <div className='flex flex-row justify-between flex-wrap gap-y-5  w-[100%] px-5' key={index}>
-            <div className='w-[50%] '>{c.title}</div>
-            <div className='text-green-500  '>${c.price}</div>
-            <div  className='w-[10%] '><button className='text-white bg-red-500 w-[70px] h-[30px]'>Remove </button></div>
+          (product,id)=>(
+          <div className='flex flex-row justify-between flex-wrap gap-y-5  w-[100%] px-5' key={id}>
+            <div className='w-[50%] '>{product.title}</div>
+            <div className='text-green-500  '>${product.price}</div>
+            <div  className='w-[10%] '><button onClick={()=>{ removeFromCart(product.id) }} className='text-white bg-red-500 w-[70px] h-[30px]'>Remove </button></div>
             </div>
             )
         )
