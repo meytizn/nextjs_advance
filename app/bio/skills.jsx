@@ -50,7 +50,7 @@ vesion controler */}
 
 
 
-<div className='py-[30px]'></div> 
+<div className='py-[50px]'></div> 
 
 
 <div className="flex flex-row justify-center md:justify-start md:py-3 rounded-md gap-x-5 md:px-10  w-[90%] md:w-[70%] h-[80px] text-[30px] text-center m-auto border-b-4 border-white bg-indigo-500 py-3 ">
@@ -91,7 +91,7 @@ Back-end Projects */}
 
 
 
-<div className='py-[30px]'></div> 
+<div className='py-[50px]'></div> 
 
 
 <div className="flex flex-row justify-center md:justify-start md:py-3 rounded-md gap-x-5 md:px-10  w-[90%] md:w-[70%] h-[80px] text-[30px] text-center m-auto border-b-4 border-white bg-indigo-500 py-3 ">

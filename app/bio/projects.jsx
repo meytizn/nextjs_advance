@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <Fragment>
             <br/>
-      <div className='flex flex-col md:flex-row justify-between text-center w-[90%] md:w-[70%]  rounded-md  m-auto bg-white gap-y-10'>
+      <div className='flex flex-col md:flex-row justify-between text-center w-[90%] md:w-[70%]  rounded-md  m-auto bg-white gap-y-[100px]'>
 
     
     <div id='s1' className='flex flex-row w-[100%] justify-around text-center  '>
