@@ -9,13 +9,15 @@ export default function Bio() {
       <div className='flex flex-col md:flex-row justify-between text-center w-[90%] md:w-[70%]  rounded-md bg-indigo-500 m-auto'>
 
     
-    <div id='s1' className='flex flex-row w-[100%] justify-center items-center  '><div className='flex flex-row justify-center w-[50%]'><img className='w-[250px] rounded-[150px] ' src='mehdizamanian.jpg' /></div></div>
+    <div id='s1' className='flex flex-row w-[100%] justify-center items-center  '><div className='flex flex-row justify-center w-[50%]'><img className='w-[250px] rounded-[150px] p-4 ' src='mehdizamanian.jpg' /></div></div>
     
     
     <div id='s2' className='flex flex-row w-[100%] justify-center items-center bg-indigo-500'>
 
 
       <div className='flex flex-col '>
+
+      <div><h1 className='text-white text-[20px] text-left px-5'>Mahdi Zamanian</h1></div>
 
       <div><h1 className='text-white text-[30px] text-left px-5'>Full-stack Web Developer</h1></div>
       
